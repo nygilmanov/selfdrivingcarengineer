@@ -75,7 +75,7 @@ In general
 
 
  
-### 3. Suggest possible improvements to your pipeline
+### 3. Improvements of the pipeline
 
 1. Applied lines averaging technique by taking mean points and slopes as an extrapolation technique.
 2. Applied color filter. Finally yellow and white lines were taken whereas other lines were filtered. 
