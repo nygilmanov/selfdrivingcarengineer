@@ -52,7 +52,7 @@ Original image
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function 
 
-1. Calculated the slope for each line
+1. Calculated the slope for each line which we get from hough space
 2. Separated left and right lines depending on the sign of the slope
 3. For each set of lines (right,left) have calcualted average center and average slope
 4. Knowing the slope and center coordinates of right and left lines have calculated the values of x1,x2 by putting known y1,y2 
