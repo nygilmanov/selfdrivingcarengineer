@@ -97,7 +97,7 @@ In general
 *Step1
 
 
-[![IMAGE ALT TEXT](![image4](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/Part1.png)"")](https://www.youtube.com/watch?v=qUHU9EWCf5Q "Step1")
+[![IMAGE ALT TEXT](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/Part1.png)](https://www.youtube.com/watch?v=qUHU9EWCf5Q "Step1")
 
 
 *Step2
