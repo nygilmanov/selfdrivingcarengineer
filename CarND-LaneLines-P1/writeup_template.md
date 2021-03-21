@@ -17,11 +17,9 @@ The goals / steps of this project are the following:
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
 
----
+TEST!!!!!
 
-### Reflection
-
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+### 1. Pipeline Description . 
 
 My pipeline consisted of 5 steps. 
 
@@ -31,6 +29,8 @@ My pipeline consisted of 5 steps.
 4. Defined the area of interest which covers lane lines and excludes everything outside of it.
 5. Defined hough lines and finally drawn all the lines on the image
 
+
+### Modification of the draw_lines() function.
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function 
 
 1. Calculated the slope for each line
@@ -41,9 +41,6 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-![alt text][test.jpg]
-
 
 
 ### 2. Identify potential shortcomings with your current pipeline
