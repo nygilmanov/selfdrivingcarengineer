@@ -103,11 +103,11 @@ In general
 *Part2 Click On The Image
 
 
-[![IMAGE ALT TEXT](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/Part1.png)](https://www.youtube.com/watch?v=pdssKjVWwds "Step2")
+[![IMAGE ALT TEXT](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/Part2.png)](https://www.youtube.com/watch?v=pdssKjVWwds "Step2")
 
 
 *Part3 Click On The Image
 
-[![IMAGE ALT TEXT](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/Part1.png)](https://www.youtube.com/watch?v=A_3RtlQtea0 "Step3")
+[![IMAGE ALT TEXT](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/Part3.png)](https://www.youtube.com/watch?v=A_3RtlQtea0 "Step3")
 
 
