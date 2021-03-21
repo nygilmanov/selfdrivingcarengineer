@@ -15,7 +15,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[image1]: https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/examples/grayscale.jpg "Grayscale"
 
 TEST!!!!!
 
