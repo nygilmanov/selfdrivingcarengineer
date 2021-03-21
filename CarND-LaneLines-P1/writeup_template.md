@@ -2,11 +2,11 @@
 
 ## Writeup Template
 
-### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
+### Finding Lane Lines on the Road**
 
 ---
 
-**Finding Lane Lines on the Road**
+
 
 The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
@@ -73,6 +73,24 @@ In general
 In general
 1. For the cases where lines are not seen we may use gaps between cars as lines and bias towards real lane lines.
    This means we can inderectly define lane lines by positions of the cars and dark zones between them 
+
+
+
+
+### FINAL VIDEOS
+
+*Step1
+
+https://www.youtube.com/watch?v=qUHU9EWCf5Q
+
+*Step2
+
+https://www.youtube.com/watch?v=pdssKjVWwds
+
+*Step3
+
+https://www.youtube.com/watch?v=A_3RtlQtea0
+
 
 
 
