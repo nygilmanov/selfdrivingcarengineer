@@ -94,31 +94,20 @@ In general
 
 ### FINAL VIDEOS
 
-*Step1
+*Part1 Click On The Image
 
 
 [![IMAGE ALT TEXT](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/Part1.png)](https://www.youtube.com/watch?v=qUHU9EWCf5Q "Step1")
 
 
-*Step2
-
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=pdssKjVWwds "Step2")
+*Part2 Click On The Image
 
 
-https://www.youtube.com/watch?v=pdssKjVWwds
+[![IMAGE ALT TEXT](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/Part1.png)](https://www.youtube.com/watch?v=pdssKjVWwds "Step2")
 
 
-*Step3
+*Part3 Click On The Image
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=A_3RtlQtea0 "Step3")
-
-
-https://www.youtube.com/watch?v=A_3RtlQtea0
-
-
-
-
-   
-    
+[![IMAGE ALT TEXT](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/Part1.png)](https://www.youtube.com/watch?v=A_3RtlQtea0 "Step3")
 
 
