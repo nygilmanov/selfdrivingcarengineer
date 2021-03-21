@@ -25,19 +25,18 @@ Original image
 
 
 2. Removed the noise from the image (cv2.GaussianBlur)
-
-![image2](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/2blur.png)
-
 3. Calculated image gradients to highlight the edges on the image (cv2.Canny)
 
-
-![image3](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/3edges.png)
+![image2](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/3edges.png)
 
 
 4. Defined the area of interest which covers lane lines and excludes everything outside of it.
 
 
 ![image4](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/4region.png)
+
+
+![image3](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/2blur.png)
 
 
 
