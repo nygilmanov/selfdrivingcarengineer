@@ -26,9 +26,13 @@ My pipeline consisted of 5 steps.
 
 ![image1](./flow/1gray.png "Grayscale")
 
+![image1](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/1gray.png "Grayscale")
+
+
 2. Removed the noise from the image (cv2.GaussianBlur)
 
 ![image2](./flow/2blur.png "Gaussian Blur")
+![image2](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/2blur.png "Gaussian Blur")
 
 3. Calculated image gradients to highlight the edges on the image (cv2.Canny)
 
