@@ -59,7 +59,7 @@ In order to draw a single line on the left and right lanes, I modified the draw_
     (y1-y')=M(x1-x') where M - is the known slope
 
 
-### 2. Identify potential shortcomings with your current pipeline
+### 2. Potential shortcomings with the pipeline
  
 1. Initially the pipiline was working on the test images and first 2 videos only 
    and was drawing number of lines on the top of each other.
