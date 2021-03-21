@@ -1,11 +1,6 @@
 # **Finding Lane Lines on the Road** 
 
-## Writeup Template
-
-### Finding Lane Lines on the Road**
-
 ---
-
 
 
 The goals / steps of this project are the following:
@@ -13,14 +8,15 @@ The goals / steps of this project are the following:
 * Reflect on your work in a written report
 
 
-
-
-![image1](./examples/grayscale.jpg "Grayscale")
-
-
 ### 1. Pipeline Description . 
 
 My pipeline consisted of 5 steps. 
+
+
+Original image 
+
+![image1](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/0original.png)
+
 
 1. Converted the images to grayscale (cv2.cvtColor)
 
@@ -60,21 +56,16 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 1. Calculated the slope for each line
 2. Separated left and right lines depending on the sign of the slope
 3. For each set of lines (right,left) have calcualted average center and average slope
-4. Knowing the slope and center coordinates of right and left line have calculated the values of x1,x2 by putting known y1,y2 
+4. Knowing the slope and center coordinates of right and left lines have calculated the values of x1,x2 by putting known y1,y2 
     (y1-y')=M(x1-x') where M - is the known slope
 
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-
 ### 2. Identify potential shortcomings with your current pipeline
-
-Reflecting shortcomings which i had with the solution
  
 1. Initially the pipiline was working on the test images and first 2 videos only 
    and was drawing number of lines on the top of each other.
-2. The video on the turn (challenge) did not reflect the lines correct way
-3. Right line on the challenge video was not reflecting at all.
+2. The video on the turn (challenge) did not reflect the lines in a correct way
+3. Right lines on the challenge video were not reflecting at all.
 
 Have tried to use linear regression as extrapolation technique. It was working worse then simple averaging described above.
 Finally has stopped on simple averaging.
@@ -87,7 +78,7 @@ In general
  
 ### 3. Suggest possible improvements to your pipeline
 
-1. Applied lines averaging technique by taking mean points and slopes averaging  as an extrapolation technique.
+1. Applied lines averaging technique by taking mean points and slopes as an extrapolation technique.
 2. Applied color filter. Finally yellow and white lines were taken whereas other lines were filtered. 
    This approach allowed not to take lines  which are not lane lines but actually look like lines on the image
    
@@ -106,9 +97,7 @@ In general
 *Step1
 
 
-[![IMAGE ALT TEXT](![image4](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/Part1.png)
-
- "")](https://www.youtube.com/watch?v=qUHU9EWCf5Q "Step1")
+[![IMAGE ALT TEXT](![image4](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/Part1.png)"")](https://www.youtube.com/watch?v=qUHU9EWCf5Q "Step1")
 
 
 *Step2
