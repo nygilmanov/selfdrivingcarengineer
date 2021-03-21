@@ -13,24 +13,37 @@ The goals / steps of this project are the following:
 * Reflect on your work in a written report
 
 
-[//]: # (Image References)
+
 
 ![image1](./examples/grayscale.jpg "Grayscale")
 
-TEST!!!!!
 
 ### 1. Pipeline Description . 
 
 My pipeline consisted of 5 steps. 
 
 1. Converted the images to grayscale (cv2.cvtColor)
+
+![image1](./flow/1gray.png "Grayscale")
+
 2. Removed the noise from the image (cv2.GaussianBlur)
+
+![image2](./flow/2blur.png "Gaussian Blur")
+
 3. Calculated image gradients to highlight the edges on the image (cv2.Canny)
+
+![image3](./flow/3edges.png "Gaussian Blur")
+
 4. Defined the area of interest which covers lane lines and excludes everything outside of it.
+
+![image4](./flow/4region.png "Region")
+
 5. Defined hough lines and finally drawn all the lines on the image
 
+![image5](./flow/4region.png "Final")
 
 ### Modification of the draw_lines() function.
+
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function 
 
 1. Calculated the slope for each line
@@ -41,12 +54,6 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-![Test Image 8](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/examples/grayscale.jpg)
-
-
-
-
 
 
 ### 2. Identify potential shortcomings with your current pipeline
@@ -87,13 +94,22 @@ In general
 
 *Step1
 
-(https://www.youtube.com/watch?v=qUHU9EWCf5Q "Step1")
+
+[![IMAGE ALT TEXT](./flow/Part1.png "")](https://www.youtube.com/watch?v=qUHU9EWCf5Q "Step1")
+
 
 *Step2
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=pdssKjVWwds "Step2")
+
+
 https://www.youtube.com/watch?v=pdssKjVWwds
 
+
 *Step3
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=A_3RtlQtea0 "Step3")
+
 
 https://www.youtube.com/watch?v=A_3RtlQtea0
 
