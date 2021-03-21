@@ -24,27 +24,34 @@ My pipeline consisted of 5 steps.
 
 1. Converted the images to grayscale (cv2.cvtColor)
 
-![image1](./flow/1gray.png "Grayscale")
 
-![image1](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/1gray.png "Grayscale")
+![image1](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/1gray.png)
 
 
 2. Removed the noise from the image (cv2.GaussianBlur)
 
-![image2](./flow/2blur.png "Gaussian Blur")
-![image2](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/2blur.png "Gaussian Blur")
+![image2](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/2blur.png)
 
 3. Calculated image gradients to highlight the edges on the image (cv2.Canny)
 
-![image3](./flow/3edges.png "Gaussian Blur")
+
+![image3](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/3edges.png)
+
 
 4. Defined the area of interest which covers lane lines and excludes everything outside of it.
 
-![image4](./flow/4region.png "Region")
+
+![image4](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/4region.png)
+
+
 
 5. Defined hough lines and finally drawn all the lines on the image
 
-![image5](./flow/4region.png "Final")
+
+![image5](https://github.com/nygilmanov/selfdrivingcarengineer/blob/main/CarND-LaneLines-P1/flow%20/5final.png)
+
+
+
 
 ### Modification of the draw_lines() function.
 
